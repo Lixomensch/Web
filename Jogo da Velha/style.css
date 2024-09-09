@@ -1,0 +1,48 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.stage {
+    text-align: center;
+}
+
+.square {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.square div {
+    position: absolute;
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset {
+    width: 320px;
+    height: auto;
+    background-color: green;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 0;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.reset:hover {
+    background-color: darkgreen;
+}
